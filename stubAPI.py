@@ -59,7 +59,7 @@ def FindRelation(relation):
       return "Found"
       
 def keyword_analysis(keyword):
-    return Findkeyword(keyword)
+    return FindKeyword(keyword)
   
 def sentiment_analysis(sentiment):
     return FindSentiment(sentiment)
