@@ -52,7 +52,7 @@ def keyword_analysis(keyword):
     return Findkeyword(keyword)
   
 def sentiment_analysis(sentiment):
-    return FindSentiment(sentiment):
+    return FindSentiment(sentiment)
     
 def relation_analysis(relation):
     return FindRelation(relation)
