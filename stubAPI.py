@@ -5,19 +5,15 @@ def Uploadfile():
       return "Success" 
 
 def pdf_upload(fname):
-      file_path = "{/upload/pdf/{filename}}.frame(filename = fname) 
       return Uploadfile(file_path, fname)
 
 def docx_upload(fname):
-      file_path = "{/upload/docx/{filename}}.frame(filename = fname) 
       return Uploadfile(file_path, fname)
 
 def csv_upload(fname):
-      file_path = "{/upload/csv/{filename}}.frame(filename = fname) 
       return Uploadfile(file_path, fname)
   
 def txt_upload(fname):
-      file_path = "{/upload/txt/{filename}}.frame(filename = fname) 
       return Uploadfile(file_path, fname)
     
 ## =============================================
