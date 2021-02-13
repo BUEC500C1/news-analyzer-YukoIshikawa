@@ -26,6 +26,7 @@ def txt_upload(fname):
 
 def descover_content(content):
       return "Found"
+
 def saveArticle(article):
       return "Success"
 
@@ -50,8 +51,10 @@ def WallStreetJournal_ingester(content):
 
 def FindSentiment(sentiment):
       return "Found"
+
 def FindeKeyword(keyword):
       return "Found"
+
 def FindRelation(relation):
       return "Found"
       
