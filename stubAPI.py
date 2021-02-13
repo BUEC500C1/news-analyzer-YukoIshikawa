@@ -24,7 +24,7 @@ def txt_upload(fname):
 ## News Feed Ingester
 ## =============================================
 
-def descover_content(content):
+def discover_content(content):
       return "Found"
 
 def saveArticle(article):
@@ -52,7 +52,7 @@ def WallStreetJournal_ingester(content):
 def FindSentiment(sentiment):
       return "Found"
 
-def FindeKeyword(keyword):
+def FindKeyword(keyword):
       return "Found"
 
 def FindRelation(relation):
