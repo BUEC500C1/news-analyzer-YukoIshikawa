@@ -1,6 +1,5 @@
 
-
-def file_validation(fname, ftype):
+def file(fname, ftype):
   allowed_ftype = ['pdf', 'csv', 'docx', 'txt']
   if fname == "": 
     return "Failure: No file selected"
