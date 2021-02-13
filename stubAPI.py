@@ -5,15 +5,19 @@ def Uploadfile():
       return "Success" 
 
 def pdf_upload(fname):
+      file_path = "temp"
       return Uploadfile(file_path, fname)
 
 def docx_upload(fname):
+      file_path = "temp"
       return Uploadfile(file_path, fname)
 
 def csv_upload(fname):
+      file_path = "temp"
       return Uploadfile(file_path, fname)
   
 def txt_upload(fname):
+      file_path = "temp"
       return Uploadfile(file_path, fname)
     
 ## =============================================
@@ -29,12 +33,15 @@ def ingestStatus(content):
       return discover_content(content)
   
 def NewYorkTimes_ingester(content):
+      article = "temp"
       return saveArticle(article)
     
 def WashingtonPost_ingester(content):
+      article = "temp"
       return saveArticle(article)
     
 def WallStreetJournal_ingester(content):
+      article = "temp"
       return saveArticle(article)
 
 ## =============================================
