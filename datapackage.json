@@ -1,0 +1,71 @@
+{
+"file": {
+        "ID": "/file",
+        [            
+                    "userID": "/file/userID"
+                        
+                    "text":{
+                            "ID": "/file/text/",
+                            "text": 
+                            "sentiment": , 
+                            "NLP" ,
+                            }
+                     "pdf":{
+                            "ID": "/file/text/",
+                            "text": 
+                            "sentiment": , 
+                            "NLP" ,
+                            }
+                     "docx":{
+                            "ID": "/file/text/",
+                            "text": 
+                            "sentiment": , 
+                            "NLP" ,
+                            }
+                     "csv":{
+                            "ID": "/file/text/",
+                            "text": 
+                            "sentiment": , 
+                            "NLP" ,
+                            }
+                                 
+                                 
+"file_type": 
+  {
+  "text":
+    { "id": },
+  "pdf":
+    { "id": },
+  "docx":
+  "csv":
+  }
+"file_type": "",
+"user_id": "",
+"timestamp": "", 
+"file_size": "",
+"keyword": "",
+"text_field": "", 
+"permission": ""
+]
+{
+"text":{
+"text_id": "",
+"timestamp": "", 
+"text_size": "", 
+"text_sentiment": "",
+"NLP": "",
+},
+"PDf":{
+"PDF_ID":
+
+
+
+
+{
+  "id": 0,
+  "quantity": 0,
+  "timestamp": "2021-02-17T13:59:51.218Z",
+  "status": "placed",
+  "complete": true
+}
+
