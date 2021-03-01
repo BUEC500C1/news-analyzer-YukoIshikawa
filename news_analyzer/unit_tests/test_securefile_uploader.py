@@ -16,10 +16,10 @@ def test_getText():
 ]
 
 def test_makeText():
-  assert makeText() = ''
+  assert makeText() == ''
   
 def test_updateText():
-  assert updateText() = 'Updated Texts'
+  assert updateText() == 'Updated Texts'
   
 def deleteText():
-  assert deleteText() = 'Removed Texts'
+  assert deleteText() == 'Removed Texts'
