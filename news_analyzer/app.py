@@ -1,24 +1,39 @@
-from flask import Flask
+from flask import Flask, jsonify, request
 
 app = Flask(__name__)
-api = Api(app)
 
-@app.route("/")
-@app.route("/index")
-def index():
-    return 'Hello world!'
+texts = [
+{
+ "file_id": "",
+ "file_name": "",
+ "file_URI" : "",
+ "file_type" : "", 
+ "metadata" : "",
+ "author" : "",
+ "publisher" : "",
+ "publication_date" : "",
+ "NLP_analysis" : "",
+ }
+]
 
-@app.route("/newsfeed_search")
-def newsfeed_ingester():
-    return 'newsfeed_ingester'
+@app.route('/', methods=['GET'])
+def showtext():
+  return jsonify(texts)
 
-@app.route("/securefile_uploader")
-def secure_file_uploader_ingester():
-    return 'securefile_uploader'
+@app.route('/add_texts', methods=['POST'])
+def editText():
+  texts.append(request.get_json())
+  return '', 204
+  
+@app.route('/update', methods=['PUT'])
+def updateText():
+    return 'Updated Texts'
 
-@app.route("/text_nlp_analyzer")
-def text_nlp_analyzer():
-    return 'text_nlp_analyzer'
+@app.route('/', methods=['DELETE'])
+def deleteText(id):
+    return 'Removed Texts'
 
 if __name__ == "__main__":
     app.run(debug=True)
+    
+    
