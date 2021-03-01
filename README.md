@@ -16,7 +16,7 @@ This ingests and discovers content to help journalist investigate stories
    * As an investigator, I want to discover content from Web to enhance story 
    * As an inverstigator, I want to search based on keywords and sentiments
 
-# cord review 
+#### cord review 
  - the program returns empty jsons when running the flask API  
  - unit tests for flask API are not testing my modules correctly
 
