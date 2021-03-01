@@ -16,10 +16,10 @@ def test_getArticle():
 ]
 
 def test_makeNewsArticle():
-  assert makeNewsArticle() = ''
+  assert makeNewsArticle() == ''
   
 def test_updateNewsArticle():
-  assert updateNewsArticle() = 'Updated NewsArticles'
+  assert updateNewsArticle() == 'Updated NewsArticles'
   
 def deleteNewsArticle():
-  assert deleteNewsArticle() = 'Removed NewsArticles'
+  assert deleteNewsArticle() == 'Removed NewsArticles'
