@@ -16,10 +16,10 @@ def test_getNLP():
 ]
 
 def test_makeNLP():
-  assert makeNLP() = ''
+  assert makeNLP() == ''
   
 def test_updateNLP():
-  assert updateNLP() = 'Updated NLP'
+  assert updateNLP() == 'Updated NLP'
   
 def deleteNLP():
-  assert deleteNLP() = 'Removed NLP'
+  assert deleteNLP() == 'Removed NLP'
