@@ -22,4 +22,4 @@ def test_updateNewsArticle():
   assert updateNewsArticle() = 'Updated NewsArticles'
   
 def deleteNewsArticle():
-	assert deleteNewsArticle() = 'Removed NewsArticles'
+  assert deleteNewsArticle() = 'Removed NewsArticles'
