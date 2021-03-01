@@ -1,4 +1,4 @@
-
+# News Analyzer
 ## Usage 
 This ingests and discovers content to help journalist investigate stories 
 
