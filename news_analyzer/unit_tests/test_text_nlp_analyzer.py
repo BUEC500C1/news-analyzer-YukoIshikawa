@@ -1,8 +1,8 @@
 from nlp_analyzer import *
 import pytest
 
-def test_getText():
-  assert getText() = [
+def test_getNLP():
+  assert getNLP() = [
 {
  "ID": "",
  "title": "",
