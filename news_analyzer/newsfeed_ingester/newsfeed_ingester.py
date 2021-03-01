@@ -19,20 +19,20 @@ articles = [
 ]
 
 @app.route('/', methods=['GET'])
-def get_book(book_id):
+def getArticle():
     return jsonify(news_articles)
 
 @app.route('/', methods=['POST'])
-def makeANewNewsArticles(title, author, genre):
+def makeNewsArticle():
    articles.append(request.get_json())
    return '', 204
 
 @app.route('/', methods=['PUT'])
-def updateNewsArticles(id, title, author, genre):
+def updateNewsArticle():
     return 'Updated NewsArticles'
 
 @app.route('/', methods=['DELETE'])
-def deleteANewsArticles(id):
+def deleteNewsArticle(id):
 	delete(articles)
     return 'Removed NewsArticles'
  
