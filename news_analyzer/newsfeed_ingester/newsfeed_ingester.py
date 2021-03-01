@@ -1,49 +1,38 @@
-class News_articles(Base):
-  __tablename__ = 'news_articles'
+from flask import Flask, abort, request
+from flask_restful import Resource, Api
 
-  id = Column(Integer, primary_key=True)
-  title = Column(String(250), nullable=False)
-  author = Column(String(250), nullable=False)
-  genre = Column(String(250))
+app = Flask(__name__)
+api = Api(app)
 
-  @property
-  def serialize(self):
-     return {
-        'title': self.title,
-        'author': self.author,
-        'genre': self.genre,
-        'id': self.id,
-     }
-    
-  def get_news_articles():
-   news_articles = session.query(News_articles).all()
-   return jsonify(news_articles= [n.serialize for n in news_articles])
+# test data 
+articles = [
+{
+ "ID": "",
+ "title": "",
+ "URl" : "",
+ "author" : "", 
+ "publisher" : "",
+ "publication_date" : "",
+ "metadata":"",
+ "NLP_analysis" : "",
+ }
+]
 
-def get_news_articles(news_articles_id):
-   news_articles = session.query(News_articles).filter_by(id = news_articles_id).one()
-   return jsonify(news_articles = news_articles.serialize)
+@app.route('/', methods=['GET'])
+def get_book(book_id):
+    return jsonify(news_articles)
 
-def makeANewBook(title,author, genre):
-   addednews_articles = News_articles(title=title, author=author,genre=genre)
-   session.add(addednews_articles)
-   session.commit()
-   return jsonify(News_articles=addednews_articles.serialize)
+@app.route('/', methods=['POST'])
+def makeANewNewsArticles(title, author, genre):
+   articles.append(request.get_json())
+   return '', 204
 
-def updateBook(id,title,author, genre):
-   updatednews_articles = session.query(News_articles).filter_by(id = id).one()
-   if not title:
-       updatednews_articles.title = title
-   if not author:
-       updatednews_articles.author = author
-   if not genre:
-       updatednews_articles.genre = genre
-   session.add(updatednews_articles)
-   session.commit()
-   return 'Updated a news_articles with id %s' % id
+@app.route('/', methods=['PUT'])
+def updateNewsArticles(id, title, author, genre):
+    return 'Updated NewsArticles'
 
-def deleteABook(id):
-   news_articlesToDelete = session.query(News_articles).filter_by(id = id).one()
-   session.delete(news_articlesToDelete)
-   session.commit()
-   return 'Removed news_articles with id %s' % id
+@app.route('/', methods=['DELETE'])
+def deleteANewsArticles(id):
+	delete(articles)
+    return 'Removed NewsArticles'
  
