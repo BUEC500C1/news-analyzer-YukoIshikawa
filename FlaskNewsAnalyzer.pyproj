@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>72964ffc-a1c8-4f9c-9ef3-8c8ee6f53255</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectTypeGuids>{789894c7-04a9-4a11-a6b5-3f4435165112};{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <StartupFile>runserver.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <LaunchProvider>Web launcher</LaunchProvider>
+    <WebBrowserUrl>http://localhost</WebBrowserUrl>
+    <OutputPath>.</OutputPath>
+    <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
+    <Name>FlaskNewsAnalyzer</Name>
+    <RootNamespace>FlaskNewsAnalyzer</RootNamespace>
+    <SuppressEnvironmentCreationPrompt>True</SuppressEnvironmentCreationPrompt>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="FlaskNewsAnalyzer\auth.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FlaskNewsAnalyzer\db.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FlaskNewsAnalyzer\newsfeed_ingest.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FlaskNewsAnalyzer\nlp.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FlaskNewsAnalyzer\pdf_convert.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FlaskNewsAnalyzer\upload.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="runserver.py" />
+    <Compile Include="FlaskNewsAnalyzer\__init__.py" />
+    <Compile Include="FlaskNewsAnalyzer\views.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="FlaskNewsAnalyzer\" />
+    <Folder Include="FlaskNewsAnalyzer\static\" />
+    <Folder Include="FlaskNewsAnalyzer\static\content\" />
+    <Folder Include="FlaskNewsAnalyzer\static\fonts\" />
+    <Folder Include="FlaskNewsAnalyzer\static\scripts\" />
+    <Folder Include="FlaskNewsAnalyzer\templates\" />
+    <Folder Include="FlaskNewsAnalyzer\templates\auth\" />
+    <Folder Include="instance\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FlaskNewsAnalyzer\templates\auth\create_user.html" />
+    <Content Include="FlaskNewsAnalyzer\templates\auth\login.html" />
+    <Content Include="FlaskNewsAnalyzer\templates\newsfeed_ingest.html" />
+    <Content Include="FlaskNewsAnalyzer\templates\pdf_convert.html" />
+    <Content Include="FlaskNewsAnalyzer\templates\upload.html" />
+    <Content Include="instance\FlaskNewsAnalyzer.db" />
+    <Content Include="instance\scheme.sql">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="requirements.txt" />
+    <Content Include="FlaskNewsAnalyzer\static\content\bootstrap.css" />
+    <Content Include="FlaskNewsAnalyzer\static\content\bootstrap.min.css" />
+    <Content Include="FlaskNewsAnalyzer\static\content\site.css" />
+    <Content Include="FlaskNewsAnalyzer\static\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="FlaskNewsAnalyzer\static\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="FlaskNewsAnalyzer\static\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="FlaskNewsAnalyzer\static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="FlaskNewsAnalyzer\static\scripts\bootstrap.js" />
+    <Content Include="FlaskNewsAnalyzer\static\scripts\bootstrap.min.js" />
+    <Content Include="FlaskNewsAnalyzer\static\scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="FlaskNewsAnalyzer\static\scripts\jquery-1.10.2.js" />
+    <Content Include="FlaskNewsAnalyzer\static\scripts\jquery-1.10.2.min.js" />
+    <Content Include="FlaskNewsAnalyzer\static\scripts\jquery-1.10.2.min.map" />
+    <Content Include="FlaskNewsAnalyzer\static\scripts\jquery.validate-vsdoc.js" />
+    <Content Include="FlaskNewsAnalyzer\static\scripts\jquery.validate.js" />
+    <Content Include="FlaskNewsAnalyzer\static\scripts\jquery.validate.min.js" />
+    <Content Include="FlaskNewsAnalyzer\static\scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="FlaskNewsAnalyzer\static\scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="FlaskNewsAnalyzer\static\scripts\modernizr-2.6.2.js" />
+    <Content Include="FlaskNewsAnalyzer\static\scripts\respond.js" />
+    <Content Include="FlaskNewsAnalyzer\static\scripts\respond.min.js" />
+    <Content Include="FlaskNewsAnalyzer\static\scripts\_references.js" />
+    <Content Include="FlaskNewsAnalyzer\templates\about.html" />
+    <Content Include="FlaskNewsAnalyzer\templates\contact.html" />
+    <Content Include="FlaskNewsAnalyzer\templates\index.html" />
+    <Content Include="FlaskNewsAnalyzer\templates\layout.html" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
+  <!-- Specify pre- and post-build commands in the BeforeBuild and 
+       AfterBuild targets below. -->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <AutoAssignPort>True</AutoAssignPort>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
