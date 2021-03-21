@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<form method="post" action="{{ url_for('show_pdf') }}" enctype="multipart/form-data">
+  <input type="file" id="send_data" name="send_data">
+  <input type="submit" value="semd">
+</fomr>
+<div>
+  {% if result %}
+  {% for i in result %}
+    {{ i }}
+  {% endfor %}
+  {% endif %}
+</div>
+{% endblock %}
