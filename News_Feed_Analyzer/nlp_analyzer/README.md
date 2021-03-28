@@ -8,7 +8,11 @@ As an investigator, I want to find sentiment magnitude of text content <br/>
 As an investigator, I want to find sentiment (positive, negative or neutral) <br/>
 As an investigator, I want to add nlp analysis to file data in DB <br/>
 
-## Usage
+## Note
+To use this module, you need authenticate to a Google Cloud API and set an environment variable where your code runs
+[link](https://cloud.google.com/docs/authentication/getting-started)
+
+## Detail
 - endpoint(/nlp/< text content >): analyze nlp (sentiment score, sentiment magnitude and sentiment)
 
 ## sample NLP output
