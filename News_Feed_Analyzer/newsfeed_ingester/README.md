@@ -8,7 +8,10 @@ As an investigator, I want to conduct keyword searches and ingest relevant artic
 As an investigator, I want to add articles into DB for future works <br/>
 As an investigator, I want to search for articles in DB with entered keyword <br/>
 
-## Usage
+## Note
+To use this module, you need to get API key and put your API key *APIKEY = 'ENTER YOUR API KYE HERE'*
+
+## Detail
 - endpoint(/articles/<<keyword>>): ingest the most relevant articles the with provided keyword  
 - endpoint(/articles/add/<<keyword>>): discover an article with keywords and add it to DB 
 - endpoint(/articles/search/<<keyword>>): search for articles in DB with keywords
