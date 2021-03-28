@@ -1,23 +1,30 @@
-# News Analyzer
-## Usage 
-This ingests and discovers content to help journalist investigate stories 
+# Newsfeed Analyzer
+## Introduction 
+This repository includes an application to help journalists to create articles by uploading files, analyzing nlp and ingesting newsfeeds. 
+  
+## Project Task Milestone
+Phase1[DONE]: API definition and Stub API implementation: Phase1_StubAPI folder and link <br>
+Phase2[DONE]: REST API implementation and deploy it on AWS EC2: [Phase2](https://www.google.co.jp/) and [ec2](http://ec2-3-17-151-213.us-east-2.compute.amazonaws.com:443/)<br>
+Phase3[DONE]: File uploader implementation: link <br>
+Phase4[DONE]: News ingester implementation: link <br>
+Phase5[DONE]: NLP implementation: link <br>
+Code review[DONE]: link <br>
 
-## User story 
-### Secure File Uploader
-   * As an investigator, I want to upload different types of files (pdf, docx, csv, txt etc.)
-   * As an investigator, I want to convert file types (from docx to pdf etc.) 
-   * As an investigator, I want to know the uploading status (success or fail) 
-### Text NLP Analysis
-   * As an investigator, I want to find the common keywords in subset of my documents 
-   * As an investigator, I want to know any relation between names, locations and institutions
-   * As an investigator, I want to find relationship between keywords in the ingested and discovered content
-   * As an investigator, I want to find sentiment of different parts of the content
-### News feed Ingester
-   * As an investigator, I want to discover content from Web to enhance story 
-   * As an inverstigator, I want to search based on keywords and sentiments
+## Modules
+- File Uploader
+- NLP analyzer 
+- Newsfeed Ingester
 
-#### cord review 
- - the program returns empty jsons when running the flask API  
- - unit tests for flask API are not testing my modules correctly
+## Setup 
+clone this repository `git clone`  <br>
+Install modules with `pip install -r requirments.txt`  <br>
+Run with `cd python filename`  <br>
+  
 
-
+## License 
+MIT License: link  
+  
+##  Reference 
+https://flask-restful.readthedocs.io/en/latest/　<br>
+https://github.com/public-apis/public-apis　<br>
+https://flask.palletsprojects.com/en/1.0.x/api/#module-flask.json <br>
