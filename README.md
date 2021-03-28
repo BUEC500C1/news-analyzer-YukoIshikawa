@@ -1,7 +1,8 @@
 # Newsfeed Analyzer
 ## Introduction 
-This repository includes an application to help journalists to create articles by uploading files, analyzing nlp and ingesting newsfeeds. 
-  
+This repository includes an API to help journalists to create articles by uploading files, analyzing nlp and ingesting newsfeeds. <br/>
+The API uses flask, AWS EC2, SQLite, Google Cloud Computing Natural Language API, and News API. 
+
 ## Project Task Milestone
 Phase1[DONE]: API definition and Stub API implementation: [Phase1](https://github.com/BUEC500C1/news-analyzer-YukoIshikawa/tree/master/Phase1_StubAPI)<br>
 Phase2[DONE]: REST API implementation and deploy it on AWS EC2: [Phase2](https://github.com/BUEC500C1/news-analyzer-YukoIshikawa/tree/master/Phase2_RestAPI) and [ec2](http://ec2-3-17-151-213.us-east-2.compute.amazonaws.com:443/)<br>
@@ -14,11 +15,6 @@ Code review[DONE]: [link](https://github.com/BUEC500C1/news-analyzer-dongfang98/
 - [File Uploader](https://github.com/BUEC500C1/news-analyzer-YukoIshikawa/tree/master/News_Feed_Analyzer/file_uploader)
 - [NLP analyzer](https://github.com/BUEC500C1/news-analyzer-YukoIshikawa/tree/master/News_Feed_Analyzer/newsfeed_ingester) 
 - [Newsfeed Ingester](https://github.com/BUEC500C1/news-analyzer-YukoIshikawa/tree/master/News_Feed_Analyzer/nlp_analyzer)
-
-## Setup 
-clone this repository `git clone`  <br>
-Install modules with `pip install -r requirments.txt`  <br>
-Run with `cd python filename`  <br>
   
 ##  Reference 
 https://flask-restful.readthedocs.io/en/latest/　<br>
