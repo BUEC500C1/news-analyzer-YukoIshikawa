@@ -3,17 +3,17 @@
 This repository includes an application to help journalists to create articles by uploading files, analyzing nlp and ingesting newsfeeds. 
   
 ## Project Task Milestone
-Phase1[DONE]: API definition and Stub API implementation: Phase1_StubAPI folder and link <br>
-Phase2[DONE]: REST API implementation and deploy it on AWS EC2: [Phase2](https://www.google.co.jp/) and [ec2](http://ec2-3-17-151-213.us-east-2.compute.amazonaws.com:443/)<br>
-Phase3[DONE]: File uploader implementation: link <br>
-Phase4[DONE]: News ingester implementation: link <br>
-Phase5[DONE]: NLP implementation: link <br>
-Code review[DONE]: link <br>
+Phase1[DONE]: API definition and Stub API implementation: [Phase1](https://github.com/BUEC500C1/news-analyzer-YukoIshikawa/tree/master/Phase1_StubAPI)<br>
+Phase2[DONE]: REST API implementation and deploy it on AWS EC2: [Phase2](https://github.com/BUEC500C1/news-analyzer-YukoIshikawa/tree/master/Phase2_RestAPI) and [ec2](http://ec2-3-17-151-213.us-east-2.compute.amazonaws.com:443/)<br>
+Phase3[DONE]: File uploader implementation: [link](https://github.com/BUEC500C1/news-analyzer-YukoIshikawa/tree/master/News_Feed_Analyzer/file_uploader)<br>
+Phase4[DONE]: News ingester implementation: [link](https://github.com/BUEC500C1/news-analyzer-YukoIshikawa/tree/master/News_Feed_Analyzer/newsfeed_ingester) <br>
+Phase5[DONE]: NLP implementation: [link](https://github.com/BUEC500C1/news-analyzer-YukoIshikawa/tree/master/News_Feed_Analyzer/nlp_analyzer) <br>
+Code review[DONE]: [link]() <br>
 
 ## Modules
-- File Uploader
-- NLP analyzer 
-- Newsfeed Ingester
+- [File Uploader](https://github.com/BUEC500C1/news-analyzer-YukoIshikawa/tree/master/News_Feed_Analyzer/file_uploader)
+- [NLP analyzer](https://github.com/BUEC500C1/news-analyzer-YukoIshikawa/tree/master/News_Feed_Analyzer/newsfeed_ingester) 
+- [Newsfeed Ingester](https://github.com/BUEC500C1/news-analyzer-YukoIshikawa/tree/master/News_Feed_Analyzer/nlp_analyzer)
 
 ## Setup 
 clone this repository `git clone`  <br>
