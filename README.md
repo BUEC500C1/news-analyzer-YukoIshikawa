@@ -8,7 +8,7 @@ Phase2[DONE]: REST API implementation and deploy it on AWS EC2: [Phase2](https:/
 Phase3[DONE]: File uploader implementation: [link](https://github.com/BUEC500C1/news-analyzer-YukoIshikawa/tree/master/News_Feed_Analyzer/file_uploader)<br>
 Phase4[DONE]: News ingester implementation: [link](https://github.com/BUEC500C1/news-analyzer-YukoIshikawa/tree/master/News_Feed_Analyzer/newsfeed_ingester) <br>
 Phase5[DONE]: NLP implementation: [link](https://github.com/BUEC500C1/news-analyzer-YukoIshikawa/tree/master/News_Feed_Analyzer/nlp_analyzer) <br>
-Code review[DONE]: [link]() <br>
+Code review[DONE]: [link](https://github.com/BUEC500C1/news-analyzer-dongfang98/issues/4) [link](https://github.com/BUEC500C1/news-analyzer-YukoIshikawa/issues)<br>
 
 ## Modules
 - [File Uploader](https://github.com/BUEC500C1/news-analyzer-YukoIshikawa/tree/master/News_Feed_Analyzer/file_uploader)
@@ -19,10 +19,6 @@ Code review[DONE]: [link]() <br>
 clone this repository `git clone`  <br>
 Install modules with `pip install -r requirments.txt`  <br>
 Run with `cd python filename`  <br>
-  
-
-## License 
-MIT License: link  
   
 ##  Reference 
 https://flask-restful.readthedocs.io/en/latest/　<br>
