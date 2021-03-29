@@ -16,6 +16,8 @@ To use this module, you need authenticate to a Google Cloud API and set an envir
 - endpoint(/nlp/< text content >): analyze nlp (sentiment score, sentiment magnitude and sentiment)
 
 ## sample NLP output
+![image](https://user-images.githubusercontent.com/32304880/112894936-811e0380-90aa-11eb-9545-bf36f2159ef6.png)
+
 {  
   "sentiment": "positive",   
   "sentiment_magnitude": 0.8999999761581421,   
