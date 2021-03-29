@@ -32,6 +32,7 @@ Sample format, Page 2 of 2 Additional Considerations: A literature review is a s
   
 < DB entry > id will be added when the data is stored into DB
 ![image](https://user-images.githubusercontent.com/32304880/112888444-59c33880-90a2-11eb-8c57-23291c1a79ef.png)
+![image](https://user-images.githubusercontent.com/32304880/112895945-c7279700-90ab-11eb-918f-39d06a00cb46.png)
 {    
   "author": "sarah",   
   "id": "",   
@@ -42,4 +43,5 @@ Sample format, Page 2 of 2 Additional Considerations: A literature review is a s
   "text": "Sample format, \nPage \n2\n \nof \n2\n \nAdditional Considerations:\n \n\n \nA literature review is a summary of what research has been completed in a topic area; it should be \nsummarized in your own words.\n \n\n \nRead the entire article first and the\nn go back and take notes. Jot down notes in your own words. \nThis increases comprehension as well as decreases the likelihood of plagiarism. \n \n\n \n\n \n\n \nUnless stated otherwise, a literature review \nideally \nreflec\nt\ns\n \narticles published in the last five \nto ten \nyears.\n \n\n \nNot every detail or fact needs to be reported. A reader will obtain a copy of the article if more \ninformation is needed.\n \n\n \nWrite the literature review in the past tense; the research has already been compl\neted.\n \n\n \n\nstudy.\n \n\n \nThe above format is a guideline. It may be necessary to change the verbs or to expand an idea.\n \n \n",   
   "title": "Format for reviewing an article",   
   "upload_date": "2021-03-26"  
-}    
+}      
+
