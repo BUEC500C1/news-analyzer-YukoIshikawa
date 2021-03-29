@@ -14,8 +14,8 @@ Code review[DONE]: [link](https://github.com/BUEC500C1/news-analyzer-dongfang98/
 ## Modules
 - [File Uploader](https://github.com/BUEC500C1/news-analyzer-YukoIshikawa/tree/master/News_Feed_Analyzer/file_uploader)
 - [Newsfeed Ingester](https://github.com/BUEC500C1/news-analyzer-YukoIshikawa/tree/master/News_Feed_Analyzer/newsfeed_ingester)
-- [NLP analyzer](https://github.com/BUEC500C1/news-analyzer-YukoIshikawa/tree/master/News_Feed_Analyzer/nlp_analyzer) 
-screenshots are here [link](https://github.com/BUEC500C1/news-analyzer-YukoIshikawa/tree/master/screenshots)
+- [NLP analyzer](https://github.com/BUEC500C1/news-analyzer-YukoIshikawa/tree/master/News_Feed_Analyzer/nlp_analyzer) <br>
+More details are in each module's page and screenshots are here [link](https://github.com/BUEC500C1/news-analyzer-YukoIshikawa/tree/master/screenshots)
 
 ##  Reference 
 https://flask-restful.readthedocs.io/en/latest/　<br>
