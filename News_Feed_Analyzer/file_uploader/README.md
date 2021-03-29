@@ -17,17 +17,21 @@ As an investigator, I want to search for files in DB with keywords <br/>
 - endpoint(/add/< path >) : add new file data to database
 
 ## Sample data output 
-![image](https://user-images.githubusercontent.com/32304880/112888444-59c33880-90a2-11eb-8c57-23291c1a79ef.png)
-< PDF metadata >   
+< PDF metadata >
+![image](https://user-images.githubusercontent.com/32304880/112895537-449ed780-90ab-11eb-8cad-a55d1e11b69e.png)
+
 {   
   "author": "sarah",   
   "title": "Format for reviewing an article"  
 }   
  
-< text >    
+< text > 
+![image](https://user-images.githubusercontent.com/32304880/112895640-5ed8b580-90ab-11eb-87bd-ddad0de5630d.png)
+
 Sample format, Page 2 of 2 Additional Considerations: A literature review is a summary of what research has been completed in a topic area; it should be summarized in your own words. Read the entire article first and the n go back and take notes. Jot down notes in your own words. This increases comprehension as well as decreases the likelihood of plagiarism. Unless stated otherwise, a literature review ideally reflec t s articles published in the last five to ten years. Not every detail or fact needs to be reported. A reader will obtain a copy of the article if more information is needed. Write the literature review in the past tense; the research has already been compl eted. study. The above format is a guideline. It may be necessary to change the verbs or to expand an idea.
   
-< DB entry > id will be added when the data is stored into DB    
+< DB entry > id will be added when the data is stored into DB
+![image](https://user-images.githubusercontent.com/32304880/112888444-59c33880-90a2-11eb-8c57-23291c1a79ef.png)
 {    
   "author": "sarah",   
   "id": "",   
