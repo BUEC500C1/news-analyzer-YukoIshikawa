@@ -17,6 +17,7 @@ As an investigator, I want to search for files in DB with keywords <br/>
 - endpoint(/add/< path >) : add new file data to database
 
 ## Sample data output 
+![image](https://user-images.githubusercontent.com/32304880/112888444-59c33880-90a2-11eb-8c57-23291c1a79ef.png)
 < PDF metadata >   
 {   
   "author": "sarah",   
