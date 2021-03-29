@@ -21,3 +21,4 @@ To use this module, you need to get API key and put your API key *APIKEY = 'ENTE
 
 ## Sample output data (keyword: Covid) 
 ![image](https://user-images.githubusercontent.com/32304880/112888561-7eb7ab80-90a2-11eb-9b7e-6740776c16b7.png)
+![image](https://user-images.githubusercontent.com/32304880/112896083-f76f3580-90ab-11eb-880d-9c17ce0fbd9d.png)
