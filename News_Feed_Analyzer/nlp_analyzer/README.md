@@ -15,7 +15,8 @@ To use this module, you need authenticate to a Google Cloud API and set an envir
 ## Detail
 - endpoint(/nlp/< text content >): analyze nlp (sentiment score, sentiment magnitude and sentiment)
 
-## sample NLP output
+## sample NLP output 
+(sample text content: I want to be an engineer) <br> 
 ![image](https://user-images.githubusercontent.com/32304880/112894936-811e0380-90aa-11eb-9545-bf36f2159ef6.png)
 
 {  
