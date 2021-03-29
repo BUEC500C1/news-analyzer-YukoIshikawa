@@ -20,6 +20,8 @@ To use this module, you need to get API key and put your API key *APIKEY = 'ENTE
 [News API](https://newsapi.org/) is used for this module to search worldwide news articles and access JSON API.
 
 ## Sample ingested data 
+![image](https://user-images.githubusercontent.com/32304880/112888561-7eb7ab80-90a2-11eb-9b7e-6740776c16b7.png)
+
     {
       "author": "https://www.facebook.com/bbcnews", 
       "content": "By Rachel SchraerHealth reporter \r\nimage copyrightGetty Images\r\nHealth workers with previous Covid-19 infections had six times the immune response to one dose of the Pfizer jab than those who hadn't \u2026 [+3605 chars]", 
