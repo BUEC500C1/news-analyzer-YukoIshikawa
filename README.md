@@ -24,6 +24,7 @@ Code review[DONE]: [link](https://github.com/BUEC500C1/news-analyzer-dongfang98/
 
 #### NLP analyzer
 ![image](https://user-images.githubusercontent.com/32304880/112889466-a9563400-90a3-11eb-8be9-9c28be448336.png)
+more screenshots here[link](https://github.com/BUEC500C1/news-analyzer-YukoIshikawa/tree/master/screenshots)
 
 ##  Reference 
 https://flask-restful.readthedocs.io/en/latest/　<br>
