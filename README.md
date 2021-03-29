@@ -15,7 +15,19 @@ Code review[DONE]: [link](https://github.com/BUEC500C1/news-analyzer-dongfang98/
 - [File Uploader](https://github.com/BUEC500C1/news-analyzer-YukoIshikawa/tree/master/News_Feed_Analyzer/file_uploader)
 - [Newsfeed Ingester](https://github.com/BUEC500C1/news-analyzer-YukoIshikawa/tree/master/News_Feed_Analyzer/newsfeed_ingester)
 - [NLP analyzer](https://github.com/BUEC500C1/news-analyzer-YukoIshikawa/tree/master/News_Feed_Analyzer/nlp_analyzer) 
-  
+### File Uploader 
+![image](https://user-images.githubusercontent.com/32304880/112888129-fb965580-90a1-11eb-8753-bf25d5a3e28d.png)
+![image](https://user-images.githubusercontent.com/32304880/112888199-0e108f00-90a2-11eb-8c37-173901305af9.png)
+![image](https://user-images.githubusercontent.com/32304880/112888259-21bbf580-90a2-11eb-9c27-46336e0583ea.png)
+![image](https://user-images.githubusercontent.com/32304880/112888370-43b57800-90a2-11eb-9f67-b8352ff5e3ba.png)
+![image](https://user-images.githubusercontent.com/32304880/112888444-59c33880-90a2-11eb-8c57-23291c1a79ef.png)
+
+### Newsfeed Ingester
+![image](https://user-images.githubusercontent.com/32304880/112888561-7eb7ab80-90a2-11eb-9b7e-6740776c16b7.png)
+
+### NLP analyzer
+![image](https://user-images.githubusercontent.com/32304880/112888502-6b0c4500-90a2-11eb-929d-ca148fb37d76.png)
+
 ##  Reference 
 https://flask-restful.readthedocs.io/en/latest/　<br>
 https://github.com/public-apis/public-apis　<br>
