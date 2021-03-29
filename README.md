@@ -15,16 +15,7 @@ Code review[DONE]: [link](https://github.com/BUEC500C1/news-analyzer-dongfang98/
 - [File Uploader](https://github.com/BUEC500C1/news-analyzer-YukoIshikawa/tree/master/News_Feed_Analyzer/file_uploader)
 - [Newsfeed Ingester](https://github.com/BUEC500C1/news-analyzer-YukoIshikawa/tree/master/News_Feed_Analyzer/newsfeed_ingester)
 - [NLP analyzer](https://github.com/BUEC500C1/news-analyzer-YukoIshikawa/tree/master/News_Feed_Analyzer/nlp_analyzer) 
-
-#### File Uploader 
-![image](https://user-images.githubusercontent.com/32304880/112888444-59c33880-90a2-11eb-8c57-23291c1a79ef.png)
-
-#### Newsfeed Ingester
-![image](https://user-images.githubusercontent.com/32304880/112888561-7eb7ab80-90a2-11eb-9b7e-6740776c16b7.png)
-
-#### NLP analyzer
-![image](https://user-images.githubusercontent.com/32304880/112889466-a9563400-90a3-11eb-8be9-9c28be448336.png)
-more screenshots here[link](https://github.com/BUEC500C1/news-analyzer-YukoIshikawa/tree/master/screenshots)
+screenshots are here [link](https://github.com/BUEC500C1/news-analyzer-YukoIshikawa/tree/master/screenshots)
 
 ##  Reference 
 https://flask-restful.readthedocs.io/en/latest/　<br>
