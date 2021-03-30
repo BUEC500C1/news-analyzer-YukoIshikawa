@@ -1,4 +1,5 @@
-# Newsfeed Analyzer (Please let me know when you want me to run this on AWS ec2) 
+# Newsfeed Analyzer
+## *Note: Please let me know when you want me to run this on AWS ec2* 
 ## Introduction 
 This repository includes an API to help journalists to create articles by uploading files, analyzing nlp and ingesting newsfeeds. <br/>
 The API uses flask, AWS EC2, SQLite, Google Cloud Computing Natural Language API, and News API. 
