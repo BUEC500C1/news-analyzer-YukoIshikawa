@@ -12,8 +12,8 @@ As an investigator, I want to add nlp analysis to file data in DB <br/>
 To use this module, you need authenticate to a Google Cloud API and set an environment variable where your code runs
 [link](https://cloud.google.com/docs/authentication/getting-started)
 
-## Detail
-- endpoint(/nlp/< text content >): analyze nlp (sentiment score, sentiment magnitude and sentiment)
+## Usage
+- < :443/nlp/< text content >): analyze nlp (sentiment score, sentiment magnitude and sentiment)
 
 ## sample NLP output 
 (sample text content: I want to be an engineer) <br> 
