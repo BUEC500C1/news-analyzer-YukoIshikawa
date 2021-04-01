@@ -36,7 +36,7 @@ More details are in each module's page and screenshots are here [link](https://g
 < :80/file/view >: show DB contents  
 < :80/file/delete/< file_id > > : delete the file of file_id  
   
-- __Newsfeed Ingester__
+- __Newsfeed Ingester__  
 < :443/ >: index page  
 < :443/article/ >: show the most relevant article with the keyword you provided  
 < :443/article/create/< keyword > >: create a new DB entry and add it to DB  
