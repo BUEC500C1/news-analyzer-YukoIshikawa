@@ -1,5 +1,11 @@
 # Newsfeed Analyzer
-## *Note: Please let me know when you want me to run this on AWS ec2* 
+## *Note* 
+File Uploader: http://ec2-3-131-91-4.us-east-2.compute.amazonaws.com:80/ <br/>
+Newsfeed Ingester: http://ec2-3-19-67-214.us-east-2.compute.amazonaws.com:443/ <br/>
+NLP Analyzer: http://ec2-3-131-91-4.us-east-2.compute.amazonaws.com:443/ <br/>
+*If you cannot access links above, please let me know so that I can connect AWS ec2 again.* <br/>
+*For more details about how to use, please check links of modules* <br/>
+
 ## Introduction 
 This repository includes an API to help journalists to create articles by uploading files, analyzing nlp and ingesting newsfeeds. <br/>
 The API uses flask, AWS EC2, SQLite, Google Cloud Computing Natural Language API, and News API. 
@@ -15,7 +21,7 @@ Code review[DONE]: [link](https://github.com/BUEC500C1/news-analyzer-dongfang98/
 ## Modules
 - [File Uploader](https://github.com/BUEC500C1/news-analyzer-YukoIshikawa/tree/master/News_Feed_Analyzer/file_uploader)
 - [Newsfeed Ingester](https://github.com/BUEC500C1/news-analyzer-YukoIshikawa/tree/master/News_Feed_Analyzer/newsfeed_ingester)
-- [NLP analyzer](https://github.com/BUEC500C1/news-analyzer-YukoIshikawa/tree/master/News_Feed_Analyzer/nlp_analyzer) <br>
+- [NLP Analyzer](https://github.com/BUEC500C1/news-analyzer-YukoIshikawa/tree/master/News_Feed_Analyzer/nlp_analyzer) <br>
 More details are in each module's page and screenshots are here [link](https://github.com/BUEC500C1/news-analyzer-YukoIshikawa/tree/master/screenshots)
 
 ##  Reference 
