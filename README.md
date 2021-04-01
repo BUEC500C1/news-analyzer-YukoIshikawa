@@ -5,7 +5,7 @@
 - NLP Analyzer: http://ec2-3-131-91-4.us-east-2.compute.amazonaws.com:443/ <br/>
   
 __If you cannot access links above, please let me know so that I can connect AWS ec2 again < yukoi@bu.edu >__ <br/>
-__For more details about how to use, please check links of modules__ <br/>
+__For more details about the usage of each module, please check below__ <br/>
 
 ## Introduction 
 This repository includes an API to help journalists to create articles by uploading files, analyzing nlp and ingesting newsfeeds. <br/>
