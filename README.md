@@ -26,22 +26,24 @@ Code review[DONE]: [link](https://github.com/BUEC500C1/news-analyzer-dongfang98/
 More details are in each module's page and screenshots are here [link](https://github.com/BUEC500C1/news-analyzer-YukoIshikawa/tree/master/screenshots)
 
 ## Usage
-- File Uploader
+- __File Uploader__
 < :80/ >: upload PDF file to the directory  
 < :80/file/metadata >: extract PDF metadata (title/author)  
 < :80/file/text/ >: extract text from PDF  
 < :80/file/create/< file > > : create a new DB entry and add it to DB  
-  *This includes NLP*  
-  *Please enter the file name you uploaded before or sample1.pdf*  
+    *This includes NLP*  
+    *Please enter the file name you uploaded before or sample1.pdf*  
 < :80/file/view >: show DB contents  
 < :80/file/delete/< file_id > > : delete the file of file_id  
-- Newsfeed Ingester
+  
+- __Newsfeed Ingester__
 < :443/ >: index page  
 < :443/article/ >: show the most relevant article with the keyword you provided  
 < :443/article/create/< keyword > >: create a new DB entry and add it to DB  
 < :443/article/search/< keyword > >: search for the article relevant to the keyword and show it  
 < :443/article/delete/< article_id > >: delete the article of article_id  
-- NLP Analyzer  
+  
+- __NLP Analyzer__  
 < :443/nlp/< text content >): analyze nlp (sentiment score, sentiment magnitude and sentiment)
 
 ##  Reference 
