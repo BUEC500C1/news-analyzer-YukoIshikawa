@@ -6,7 +6,7 @@ from db import get_db
  
 app = Flask(__name__)
  
-APIKEY = 'f9e31e950cd9484ab3fd7b069a3b39f5'   
+APIKEY = 'API KEY HERE'   
 newsapi = NewsApiClient(api_key=APIKEY)
 
 @app.route('/')
