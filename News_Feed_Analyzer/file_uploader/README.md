@@ -10,11 +10,12 @@ As an investigator, I want to add PDF metadata and converted text to DB <br/>
 As an investigator, I want to search for files in DB with keywords <br/>
 
 ## Usage
-- enndpoint(/upload):  upload PDF file to the directory
-- endpoint(/pdf_info/< path >) : extract PDF metadata (title/author) 
-- endpoint(/text/< path >) : extract text from PDF 
-- endpoint(/create/< path >) : create a new DB entry
-- endpoint(/add/< path >) : add new file data to database
+- < :80/ >: upload PDF file to the directory
+- < :80/file/metadata >: extract PDF metadata (title/author) 
+- < :80/file/text/ >: extract text from PDF 
+- < :80/file/create/< file > > : create a new DB entry and add it to DB ※Please enter the file name you uploaded before or sample1.pdf
+- < :80/file/view >: show DB contents 
+- < :80/file/delete/< file_id > > : delete the file of file_id
 
 ## Sample data output 
 < PDF metadata >
