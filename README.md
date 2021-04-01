@@ -44,7 +44,8 @@ More details are in each module's page and screenshots are here [link](https://g
 < :443/article/delete/< article_id > >: delete the article of article_id  
   
 - __NLP Analyzer__  
-< :443/nlp/< text content >): analyze nlp (sentiment score, sentiment magnitude and sentiment)
+< :443/ >: index page  
+< :443/nlp/< text content >>: analyze nlp (sentiment score, sentiment magnitude and sentiment)
 
 ##  Reference 
 https://flask-restful.readthedocs.io/en/latest/　<br>
