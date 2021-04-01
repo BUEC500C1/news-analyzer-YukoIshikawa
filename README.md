@@ -31,8 +31,8 @@ More details are in each module's page and screenshots are here [link](https://g
 < :80/file/metadata >: extract PDF metadata (title/author)  
 < :80/file/text/ >: extract text from PDF  
 < :80/file/create/< file > > : create a new DB entry and add it to DB  
-    *This includes NLP*  
-    *Please enter the file name you uploaded before or sample1.pdf*  
+      - *This includes NLP*  
+      - *Please enter the file name you uploaded before or sample1.pdf*  
 < :80/file/view >: show DB contents  
 < :80/file/delete/< file_id > > : delete the file of file_id  
   
