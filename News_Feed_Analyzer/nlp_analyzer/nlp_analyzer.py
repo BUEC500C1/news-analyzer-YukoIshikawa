@@ -2,7 +2,7 @@ from flask import Flask, flash, request, redirect, render_template, json, jsonif
 from google.cloud import language_v1
 from app import app
 import os
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'high-mountain-308101-7fe5259b2655.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'JSON PPATH HERE'
 
 @app.route("/")
 def index():
