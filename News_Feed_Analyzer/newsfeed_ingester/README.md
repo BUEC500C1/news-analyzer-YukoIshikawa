@@ -11,7 +11,7 @@ As an investigator, I want to search for articles in DB with entered keyword <br
 ## Note
 To use this module, you need to get API key and put your API key *APIKEY = 'ENTER YOUR API KYE HERE'*
 
-## Detail
+## Usage
 - < :443/ >: index page
 - < :443/article/<keyword> >: show the most relevant article with the keyword you provided  
 - < :443/article/create/< keyword > >: create a new DB entry and add it to DB
