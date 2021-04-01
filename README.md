@@ -1,10 +1,10 @@
 # Newsfeed Analyzer
-## *Note* 
-File Uploader: http://ec2-3-131-91-4.us-east-2.compute.amazonaws.com:80/ <br/>
-Newsfeed Ingester: http://ec2-3-19-67-214.us-east-2.compute.amazonaws.com:443/ <br/>
-NLP Analyzer: http://ec2-3-131-91-4.us-east-2.compute.amazonaws.com:443/ <br/>
-*If you cannot access links above, please let me know so that I can connect AWS ec2 again.* <br/>
-*For more details about how to use, please check links of modules* <br/>
+## **Note** 
+-File Uploader: http://ec2-3-131-91-4.us-east-2.compute.amazonaws.com:80/ <br/>
+-Newsfeed Ingester: http://ec2-3-19-67-214.us-east-2.compute.amazonaws.com:443/ <br/>
+-NLP Analyzer: http://ec2-3-131-91-4.us-east-2.compute.amazonaws.com:443/ <br/>
+**If you cannot access links above, please let me know so that I can connect AWS ec2 again.** <br/>
+**For more details about how to use, please check links of modules** <br/>
 
 ## Introduction 
 This repository includes an API to help journalists to create articles by uploading files, analyzing nlp and ingesting newsfeeds. <br/>
