@@ -10,7 +10,7 @@ from flask_marshmallow import Marshmallow
 from db import get_db
 from google.cloud import language_v1
 import os
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'high-mountain-308101-7fe5259b2655.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'JSON PATH HERE'
 
 ALLOWED_EXTENSIONS = set(['pdf'])
 
