@@ -12,9 +12,11 @@ As an investigator, I want to search for articles in DB with entered keyword <br
 To use this module, you need to get API key and put your API key *APIKEY = 'ENTER YOUR API KYE HERE'*
 
 ## Detail
-- endpoint(/articles/<<keyword>>): ingest the most relevant articles the with provided keyword  
-- endpoint(/articles/add/<<keyword>>): discover an article with keywords and add it to DB 
-- endpoint(/articles/search/<<keyword>>): search for articles in DB with keywords
+- < :443/ >: index page
+- < :443/article/<keyword> >: show the most relevant article with the keyword you provided  
+- < :443/article/create/< keyword > >: create a new DB entry and add it to DB
+- < :443/article/search/< keyword > >: search for the article relevant to the keyword and show it
+- < :443/article/delete/< article_id > >: delete the article of article_id
 
 ## Public API 
 [News API](https://newsapi.org/) is used for this module to search worldwide news articles and access JSON API.
