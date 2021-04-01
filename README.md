@@ -3,7 +3,8 @@
 - File Uploader: http://ec2-3-131-91-4.us-east-2.compute.amazonaws.com:80/ <br/>
 - Newsfeed Ingester: http://ec2-3-19-67-214.us-east-2.compute.amazonaws.com:443/ <br/>
 - NLP Analyzer: http://ec2-3-131-91-4.us-east-2.compute.amazonaws.com:443/ <br/>
-__If you cannot access links above, please let me know so that I can connect AWS ec2 again.__ <br/>
+  
+__If you cannot access links above, please let me know so that I can connect AWS ec2 again < yukoi@bu.edu >__ <br/>
 __For more details about how to use, please check links of modules__ <br/>
 
 ## Introduction 
