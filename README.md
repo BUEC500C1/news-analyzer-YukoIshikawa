@@ -26,7 +26,7 @@ Code review[DONE]: [link](https://github.com/BUEC500C1/news-analyzer-dongfang98/
 More details are in each module's page and screenshots are here [link](https://github.com/BUEC500C1/news-analyzer-YukoIshikawa/tree/master/screenshots)
 
 ## Usage
-- __File Uploader__
+- __File Uploader__  
 < :80/ >: upload PDF file to the directory  
 < :80/file/metadata >: extract PDF metadata (title/author)  
 < :80/file/text/ >: extract text from PDF  
